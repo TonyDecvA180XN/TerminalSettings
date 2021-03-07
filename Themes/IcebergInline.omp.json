@@ -1,0 +1,162 @@
+{
+    "final_space": true,
+    "osc99": false,
+    "console_title": false,
+    "blocks": [
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [
+                {
+                    "type": "root",
+                    "style": "plain",
+                    "foreground": "#FFEE58"
+                },
+                {
+                    "type": "os",
+                    "style": "powerline",
+                    "leading_diamond": "\ue0c7\u2593",
+                    "foreground": "#100e23",
+                    "background": "#ffffff",
+                    "properties": {
+                        "alpine": "\uf300",
+                        "arch": "\uf303",
+                        "centos": "\uf304",
+                        "debian": "\uf306",
+                        "elementary": "\uf309",
+                        "fedora": "\uf30a",
+                        "gentoo": "\uf30d",
+                        "linux": "\ue712",
+                        "macos": "\ue711",
+                        "manjaro": "\uf312",
+                        "mint": "\uf30f",
+                        "opensuse": "\uf314",
+                        "raspbian": "\uf315",
+                        "ubuntu": "\uf31c",
+                        "wsl": "WSL",
+                        "wsl_separator": " on ",
+                        "windows": "\uF17A",
+                        "postfix": "<#100e23>  \ue0b1</>",
+                        "prefix": "<#ffffff, transparent>\uE0B6</><, #ffffff> </>"
+                    }
+                },
+                {
+                    "type": "session",
+                    "style": "powerline",
+                    "powerline_symbol": "",
+                    "leading_diamond": "\uE0B6",
+                    "trailing_diamond": "\uE0B0",
+                    "foreground": "#100e23",
+                    "background": "#ffffff",
+                    "properties": {}
+                },
+                {
+                    "type": "path",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#100e23",
+                    "background": "#91ddff",
+                    "properties": {
+                        "home_icon": "\uF7DB ",
+                        "folder_icon": "\uF115 ",
+                        "style": "mixed",
+                        "mixed_threshold": 12,
+                        "folder_separator_icon": " \uE0B1 ",
+                        "enable_hyperlink": false
+                    }
+                },
+                {
+                    "type": "git",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#193549",
+                    "background": "#95ffa4",
+                    "properties": {
+                        "branch_icon": "\uF418 ",
+                        "display_branch_status": true,
+                        "branch_identical_icon": "\uF9E5 ",
+                        "branch_ahead_icon": "\uF050 ",
+                        "branch_behind_icon": "\uF049 ",
+                        "branch_gone_icon": "\uF818 ",
+                        "display_status": true,
+                        "display_status_detail": true,
+                        "display_stash_count": true,
+                        "status_separator_icon": "|",
+                        "local_working_icon": "\uF044",
+                        "local_staged_icon": "\uF046",
+                        "stash_count_icon": "\uF692",
+                        "commit_icon": "\uF417",
+                        "tag_icon": "\uF412",
+                        "rebase_icon": "\uE728",
+                        "cherry_pick_icon": "\uE29B",
+                        "merge_icon": "\uE727",
+                        "no_commits_icon": "\uF594",
+                        "display_upstream_icon": true,
+                        "github_icon": "\uF408  ",
+                        "gitlab_icon": "\uF296  ",
+                        "bitbucket_icon": "\uF171  ",
+                        "git_icon": "\uE5FB  "
+                    }
+                },
+                {
+                    "type": "exit",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#ffffff",
+                    "background": "#3FA847",
+                    "leading_diamond": "",
+                    "trailing_diamond": "\uE0B4",
+                    "properties": {
+                        "display_exit_code": true,
+                        "always_enabled": true,
+                        "always_numeric": true,
+                        "error_color": "#C30027",
+                        "success_icon": "<#F5f5f5> \uF634 </>",
+                        "error_icon": " \uF06A ERROR ",
+                        "color_background": true,
+                        "prefix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "rprompt",
+            "alignment": "right",
+            "segments": [
+                {
+                    "type": "text",
+                    "style": "diamond",
+                    "foreground": "#fafafa",
+                    "background": "#2f2f2f",
+                    "leading_diamond": "\ue0b6",
+                    "properties": {
+                        "text": "",
+                        "prefix": "",
+                        "postfix": ""
+                    }
+                },
+                {
+                    "type": "python",
+                    "style": "plain",
+                    "foreground": "#96E072",
+                    "background": "#2f2f2f",
+                    "properties": {
+                        "prefix": "\uE235 ",
+                        "postfix": " "
+                    }
+                },
+                {
+                    "type": "time",
+                    "style": "plain",
+                    "foreground": "#fafafa",
+                    "background": "#2f2f2f",
+                    "properties": {
+                        "time_format": "15:04:05",
+                        "prefix": "<#91ddff>\uf64f </>",
+                        "postfix": "<#2f2f2f, transparent>\uE0B4</>"
+                    }
+                }
+            ]
+        }
+    ]
+}
