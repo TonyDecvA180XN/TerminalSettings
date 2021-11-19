@@ -14,8 +14,8 @@
                 },
                 {
                     "type": "os",
-                    "style": "powerline",
-                    "leading_diamond": "\ue0c7\u2593",
+                    "style": "diamond",
+                    "leading_diamond": "\uE0B6",
                     "foreground": "#100e23",
                     "background": "#ffffff",
                     "properties": {
@@ -147,13 +147,14 @@
                 },
                 {
                     "type": "time",
-                    "style": "plain",
+                    "style": "diamond",
                     "foreground": "#fafafa",
                     "background": "#2f2f2f",
+                    "trailing_diamond": "\uE0B4",
                     "properties": {
                         "time_format": "15:04:05",
                         "prefix": "<#91ddff>\uf64f </>",
-                        "postfix": "<#2f2f2f, transparent>\uE0B4</>"
+                        "postfix": ""
                     }
                 }
             ]
